@@ -2,7 +2,7 @@ name: running simple cypress test
 
 on: 
   push:
-    branches: ["main"]
+    branches: ["main", "test"]
   workflow_dispatch:
 
 jobs:
