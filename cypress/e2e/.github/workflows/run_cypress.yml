@@ -1,0 +1,14 @@
+name: running simple cypress test
+
+on: 
+  push:
+    branche: ["main"]
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+      steps:
+      - name: say hello
+        run : echo hello world !!!!!
+
